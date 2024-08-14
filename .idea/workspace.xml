@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="F103cb" targetName="F103cb.elf" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b08fa3ec-5659-49bb-874f-d52eeab2b758" name="默认变更列表" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="EmbeddedSvdWindowState">
+    <option name="columnWidths">
+      <list>
+        <option value="212" />
+        <option value="92" />
+        <option value="1106" />
+      </list>
+    </option>
+    <option name="columnOrder">
+      <list>
+        <option value="名称" />
+        <option value="值" />
+        <option value="描述" />
+      </list>
+    </option>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="2i2Zc6dMNIueCRITcuyMiSsKgMc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/LM3644YFFR" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\clion_stm32\project_file\F103cb\LM3644YFFR" />
+      <recent name="D:\clion_stm32\project_file\F103cb\Core\Inc" />
+      <recent name="D:\clion_stm32\project_file\F103cb\TMP102" />
+      <recent name="D:\clion_stm32\project_file\F103cb\delay" />
+      <recent name="D:\clion_stm32\project_file\F103cb\MYIIC" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\clion_stm32\project_file\F103cb\port" />
+      <recent name="D:\clion_stm32\project_file\F103cb\LM3644YFFR" />
+    </key>
+  </component>
+  <component name="RunManager" selected="OpenOCD 下载并运行.OCD F103cb">
+    <configuration name="F103cb.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="F103cb" TARGET_NAME="F103cb.elf" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="F103cb" RUN_TARGET_NAME="F103cb.elf">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OCD F103cb" type="com.jetbrains.cidr.embedded.openocd.conf.type" factoryName="com.jetbrains.cidr.embedded.openocd.conf.factory" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="F103cb" TARGET_NAME="F103cb.elf" CONFIG_NAME="Debug" version="1" RUN_TARGET_PROJECT_NAME="F103cb" RUN_TARGET_NAME="F103cb.elf">
+      <openocd version="1" gdb-port="3333" telnet-port="4444" board-config="D:\clion_stm32\project_file\F103cb\DAPlink.cfg" reset-type="INIT" download-type="UPDATED_ONLY">
+        <debugger kind="GDB" isBundled="true" />
+      </openocd>
+      <method v="2">
+        <option name="CLION.COMPOUND.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.F103cb.elf" />
+      <item itemvalue="OpenOCD 下载并运行.OCD F103cb" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="b08fa3ec-5659-49bb-874f-d52eeab2b758" name="默认变更列表" comment="" />
+      <created>1718690708711</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718690708711</updated>
+      <workItem from="1718690784833" duration="12019000" />
+      <workItem from="1718759732559" duration="4292000" />
+      <workItem from="1718768691922" duration="39000" />
+      <workItem from="1718769251635" duration="634000" />
+      <workItem from="1718794076835" duration="52000" />
+      <workItem from="1719199972261" duration="1046000" />
+      <workItem from="1719201122660" duration="107000" />
+      <workItem from="1719202800830" duration="5779000" />
+      <workItem from="1719285304198" duration="264000" />
+      <workItem from="1719297674117" duration="24000" />
+      <workItem from="1719299288110" duration="796000" />
+      <workItem from="1720075008586" duration="687000" />
+      <workItem from="1720146813753" duration="18897000" />
+      <workItem from="1720400867377" duration="22562000" />
+      <workItem from="1720489022106" duration="19425000" />
+      <workItem from="1720574211590" duration="24114000" />
+      <workItem from="1720660730064" duration="2869000" />
+      <workItem from="1720834081871" duration="435000" />
+      <workItem from="1720834532298" duration="9406000" />
+      <workItem from="1720851438495" duration="8738000" />
+      <workItem from="1721117001383" duration="5000" />
+      <workItem from="1721362390044" duration="29000" />
+      <workItem from="1721370616173" duration="74000" />
+      <workItem from="1721700093651" duration="339000" />
+      <workItem from="1721715462141" duration="59000" />
+      <workItem from="1722049406166" duration="4948000" />
+      <workItem from="1722065864700" duration="1417000" />
+      <workItem from="1722216229182" duration="5901000" />
+      <workItem from="1722300173213" duration="9481000" />
+      <workItem from="1722322264778" duration="11000" />
+      <workItem from="1722322522265" duration="516000" />
+      <workItem from="1722323117143" duration="1110000" />
+      <workItem from="1722394794781" duration="80000" />
+      <workItem from="1722414741293" duration="637000" />
+      <workItem from="1722820348521" duration="23000" />
+      <workItem from="1722838165267" duration="193000" />
+      <workItem from="1722838871150" duration="658000" />
+      <workItem from="1723018170313" duration="739000" />
+      <workItem from="1723019277230" duration="1209000" />
+      <workItem from="1723089745568" duration="171000" />
+      <workItem from="1723090042762" duration="54000" />
+      <workItem from="1723090114917" duration="39000" />
+      <workItem from="1723090168319" duration="725000" />
+      <workItem from="1723091229365" duration="196000" />
+      <workItem from="1723100386972" duration="610000" />
+      <workItem from="1723101742630" duration="1729000" />
+      <workItem from="1723186856736" duration="599000" />
+      <workItem from="1723426109809" duration="2229000" />
+      <workItem from="1723514606662" duration="595000" />
+      <workItem from="1723533477701" duration="34000" />
+      <workItem from="1723545263384" duration="1304000" />
+      <workItem from="1723547967653" duration="52000" />
+      <workItem from="1723550276267" duration="33000" />
+      <workItem from="1723550563863" duration="63000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

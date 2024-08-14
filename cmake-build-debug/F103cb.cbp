@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="F103cb"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/clion_stm32/project_file/F103cb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F103cb.elf">
+				<Option output="D:/clion_stm32/project_file/F103cb/cmake-build-debug/F103cb.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/clion_stm32/project_file/F103cb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/Core/Inc"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/delay"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/LM3644YFFR"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/port"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/TMP102"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/MYIIC"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 F103cb.elf"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="F103cb.elf/fast">
+				<Option output="D:/clion_stm32/project_file/F103cb/cmake-build-debug/F103cb.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/clion_stm32/project_file/F103cb/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DUSE_HAL_DRIVER"/>
+					<Add option="-DSTM32F103xB"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/Core/Inc"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/delay"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/LM3644YFFR"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/port"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/TMP102"/>
+					<Add directory="D:/clion_stm32/project_file/F103cb/MYIIC"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="d:\clion_stm32\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 F103cb.elf/fast"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/clion_stm32/project_file/F103cb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/clion_stm32/project_file/F103cb/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/clion_stm32/mingw64/bin/mingw32-make.exe -f &quot;D:/clion_stm32/project_file/F103cb/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Inc/debug_com.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Inc/gpio.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Inc/main.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Inc/stm32f1xx_hal_conf.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Inc/stm32f1xx_it.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Inc/usart.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Src/gpio.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Src/main.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Src/stm32f1xx_hal_msp.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Src/stm32f1xx_it.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Src/syscalls.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Src/system_stm32f1xx.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Core/Src/usart.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/cmsis_armcc.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/cmsis_armclang.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/cmsis_compiler.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/cmsis_gcc.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/cmsis_iccarm.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/cmsis_version.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_armv8mbl.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_armv8mml.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_cm0.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_cm0plus.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_cm1.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_cm23.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_cm3.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_cm33.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_cm4.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_cm7.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_sc000.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/core_sc300.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/mpu_armv7.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/mpu_armv8.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/CMSIS/Include/tz_context.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/LM3644YFFR/IIC.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/LM3644YFFR/IIC.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/LM3644YFFR/LM3644YFFR.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/LM3644YFFR/LM3644YFFR.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/LM3644YFFR/sys.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/MYIIC/myiic.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/MYIIC/myiic.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/STM32F103CBTx_FLASH.ld">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/TMP102/tmp102.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/TMP102/tmp102.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/delay/delay.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/delay/delay.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/port/port_dev.c">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/port/port_dev.h">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/startup/startup_stm32f103xb.s">
+			<Option target="F103cb.elf"/>
+		</Unit>
+		<Unit filename="D:/clion_stm32/project_file/F103cb/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
